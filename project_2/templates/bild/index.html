@@ -1,0 +1,7 @@
+<!DOCTYPE html>
+{% extends "base.html" %}
+  {% block body_block %}
+    {% load static %}
+      <h1>{{ bild_page }}</h1>
+      <img src="{% static 'images/office.jpg' %}" alt="Nåt gick fel">
+  {% endblock %}
